@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fresh Start Detailing</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <h1 class="logo">Fresh Start Detailing</h1>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#booking">Book</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h2>Professional Mobile Car Detailing</h2>
+    <p>Serving Sugar Land and Greater Houston — Interior & Exterior Excellence at Your Doorstep.</p>
+    <a href="#booking" class="btn-primary">Schedule Your Detail</a>
+  </section>
+
+  <section id="services" class="services">
+    <h2>💧 Our Packages & Pricing</h2>
+    <div class="pricing-table">
+      <div class="pricing-column">
+        <h3>Interior Only</h3>
+        <p><strong>Compact Vehicle:</strong> $50</p>
+        <p><strong>Mid-size / SUV:</strong> $70</p>
+        <a href="#booking" class="select-btn">Select Service</a>
+      </div>
+      <div class="pricing-column">
+        <h3>Exterior Only</h3>
+        <p><strong>Compact Vehicle:</strong> $50</p>
+        <p><strong>Mid-size / SUV:</strong> $70</p>
+        <a href="#booking" class="select-btn">Select Service</a>
+      </div>
+      <div class="pricing-column featured">
+        <h3>Full Interior + Exterior</h3>
+        <p><strong>Compact Vehicle:</strong> $90</p>
+        <p><strong>Mid-size / SUV:</strong> $110</p>
+        <a href="#booking" class="select-btn">Select Service</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="booking" class="booking">
+    <h2>📅 Book Your Appointment</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST" class="booking-form">
+      <input name="name" type="text" placeholder="Full Name" required>
+      <input name="email" type="email" placeholder="Email Address" required>
+      <input name="phone" type="tel" placeholder="Phone Number" required>
+      <select name="vehicle" required>
+        <option value="">Select Vehicle Type</option>
+        <option value="Compact Vehicle">Compact Vehicle</option>
+        <option value="Mid-size / SUV">Mid-size / SUV</option>
+      </select>
+      <select name="service" required>
+        <option value="">Select Service</option>
+        <option value="Interior Only">Interior Only</option>
+        <option value="Exterior Only">Exterior Only</option>
+        <option value="Full Interior + Exterior">Full Interior + Exterior</option>
+      </select>
+      <textarea name="message" placeholder="Special requests or preferred date/time"></textarea>
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <footer id="contact">
+    <p>📸 Follow us on Instagram: <a href="https://www.instagram.com/freshstartdetailing.rh" target="_blank">@freshstartdetailing.rh</a></p>
+    <p>📍 Proudly serving Sugar Land & the Greater Houston Area</p>
+    <p>© 2025 Fresh Start Detailing</p>
+  </footer>
+</body>
+</html>
